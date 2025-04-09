@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "app_sg" {
-  name        = "misecgr"
+  name        = "saidiiiigr"
   description = "Permite trafico HTTP y SSH"
 
   ingress {
@@ -58,7 +58,7 @@ resource "aws_instance" "app_server" {
 
 
   tags = {
-    Name = "AppServer4"
+    Name = "AppServer5"
   }
 }
 output "public_ip" {
