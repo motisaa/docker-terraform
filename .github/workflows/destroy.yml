@@ -28,5 +28,3 @@ jobs:
 
     - name: Destruir infraestructura con Terraform
       run: terraform destroy -auto-approve
-
-
